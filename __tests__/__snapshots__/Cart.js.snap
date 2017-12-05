@@ -1,0 +1,3149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartListItem /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "gray",
+      "borderBottomWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": 80,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1.4,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../images/item.png",
+        }
+      }
+      style={
+        Object {
+          "height": 60,
+          "marginBottom": 10,
+          "marginTop": 10,
+          "width": 80,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 10,
+          "marginTop": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          },
+        ]
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         + 
+      </Text>
+    </View>
+    <TextInput
+      allowFontScaling={true}
+      editable={false}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "height": 30,
+          "marginBottom": 10,
+          "marginRight": 10,
+          "textAlign": "center",
+          "width": 40,
+        }
+      }
+      value="1"
+    />
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          },
+        ]
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         - 
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<CartListItem /> should render again 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+      Object {
+        "borderBottomColor": "gray",
+        "borderBottomWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 80,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1.4,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../images/item.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 80,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "flex": 1,
+            "marginLeft": 10,
+            "marginTop": 10,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TouchableHighlight
+        activeOpacity={0.85}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          }
+        }
+        underlayColor="black"
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+           + 
+        </Text>
+      </TouchableHighlight>
+      <TextInput
+        allowFontScaling={true}
+        editable={false}
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "height": 30,
+            "marginBottom": 10,
+            "marginRight": 10,
+            "textAlign": "center",
+            "width": 40,
+          }
+        }
+        value="1"
+      />
+      <TouchableHighlight
+        activeOpacity={0.85}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          }
+        }
+        underlayColor="black"
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+           - 
+        </Text>
+      </TouchableHighlight>
+    </View>
+  </View>,
+  "nodes": Array [
+    <View
+      style={
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1.4,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../images/item.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "marginBottom": 10,
+              "marginTop": 10,
+              "width": 80,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+              "marginTop": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             + 
+          </Text>
+        </TouchableHighlight>
+        <TextInput
+          allowFontScaling={true}
+          editable={false}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "height": 30,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 40,
+            }
+          }
+          value="1"
+        />
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             - 
+          </Text>
+        </TouchableHighlight>
+      </View>
+    </View>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <CartListItem />,
+    "_instance": CartListItem {
+      "context": Object {},
+      "props": Object {},
+      "refs": Object {},
+      "state": Object {
+        "textValue": 1,
+      },
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <View
+      style={
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1.4,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../images/item.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "marginBottom": 10,
+              "marginTop": 10,
+              "width": 80,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+              "marginTop": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             + 
+          </Text>
+        </TouchableHighlight>
+        <TextInput
+          allowFontScaling={true}
+          editable={false}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "height": 30,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 40,
+            }
+          }
+          value="1"
+        />
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             - 
+          </Text>
+        </TouchableHighlight>
+      </View>
+    </View>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <CartListItem />,
+}
+`;
+
+exports[`CartListItem render tests renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "gray",
+      "borderBottomWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": 80,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1.4,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../images/item.png",
+        }
+      }
+      style={
+        Object {
+          "height": 60,
+          "marginBottom": 10,
+          "marginTop": 10,
+          "width": 80,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 10,
+          "marginTop": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          },
+        ]
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         + 
+      </Text>
+    </View>
+    <TextInput
+      allowFontScaling={true}
+      editable={false}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "height": 30,
+          "marginBottom": 10,
+          "marginRight": 10,
+          "textAlign": "center",
+          "width": 40,
+        }
+      }
+      value="1"
+    />
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          },
+        ]
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         - 
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`CartListItem render tests should render again 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+      Object {
+        "borderBottomColor": "gray",
+        "borderBottomWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 80,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1.4,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../images/item.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 80,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "flex": 1,
+            "marginLeft": 10,
+            "marginTop": 10,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TouchableHighlight
+        activeOpacity={0.85}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          }
+        }
+        underlayColor="black"
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+           + 
+        </Text>
+      </TouchableHighlight>
+      <TextInput
+        allowFontScaling={true}
+        editable={false}
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "height": 30,
+            "marginBottom": 10,
+            "marginRight": 10,
+            "textAlign": "center",
+            "width": 40,
+          }
+        }
+        value="1"
+      />
+      <TouchableHighlight
+        activeOpacity={0.85}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          }
+        }
+        underlayColor="black"
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+           - 
+        </Text>
+      </TouchableHighlight>
+    </View>
+  </View>,
+  "nodes": Array [
+    <View
+      style={
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1.4,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../images/item.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "marginBottom": 10,
+              "marginTop": 10,
+              "width": 80,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+              "marginTop": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             + 
+          </Text>
+        </TouchableHighlight>
+        <TextInput
+          allowFontScaling={true}
+          editable={false}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "height": 30,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 40,
+            }
+          }
+          value="1"
+        />
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             - 
+          </Text>
+        </TouchableHighlight>
+      </View>
+    </View>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <CartListItem />,
+    "_instance": CartListItem {
+      "context": Object {},
+      "props": Object {},
+      "refs": Object {},
+      "state": Object {
+        "textValue": 1,
+      },
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <View
+      style={
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1.4,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../images/item.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "marginBottom": 10,
+              "marginTop": 10,
+              "width": 80,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+              "marginTop": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             + 
+          </Text>
+        </TouchableHighlight>
+        <TextInput
+          allowFontScaling={true}
+          editable={false}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "height": 30,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 40,
+            }
+          }
+          value="1"
+        />
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             - 
+          </Text>
+        </TouchableHighlight>
+      </View>
+    </View>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <CartListItem />,
+}
+`;
+
+exports[`Testing CartListItem components: renders as expected 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+      Object {
+        "borderBottomColor": "gray",
+        "borderBottomWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 80,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1.4,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../images/item.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 80,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "flex": 1,
+            "marginLeft": 10,
+            "marginTop": 10,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TouchableHighlight
+        activeOpacity={0.85}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          }
+        }
+        underlayColor="black"
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+           + 
+        </Text>
+      </TouchableHighlight>
+      <TextInput
+        allowFontScaling={true}
+        editable={false}
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "height": 30,
+            "marginBottom": 10,
+            "marginRight": 10,
+            "textAlign": "center",
+            "width": 40,
+          }
+        }
+        value="1"
+      />
+      <TouchableHighlight
+        activeOpacity={0.85}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          }
+        }
+        underlayColor="black"
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+           - 
+        </Text>
+      </TouchableHighlight>
+    </View>
+  </View>,
+  "nodes": Array [
+    <View
+      style={
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1.4,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../images/item.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "marginBottom": 10,
+              "marginTop": 10,
+              "width": 80,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+              "marginTop": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             + 
+          </Text>
+        </TouchableHighlight>
+        <TextInput
+          allowFontScaling={true}
+          editable={false}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "height": 30,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 40,
+            }
+          }
+          value="1"
+        />
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             - 
+          </Text>
+        </TouchableHighlight>
+      </View>
+    </View>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <CartListItem
+      textValue={1}
+    />,
+    "_instance": CartListItem {
+      "context": Object {},
+      "props": Object {
+        "textValue": 1,
+      },
+      "refs": Object {},
+      "state": Object {
+        "textValue": 1,
+      },
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <View
+      style={
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1.4,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../images/item.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "marginBottom": 10,
+              "marginTop": 10,
+              "width": 80,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+              "marginTop": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             + 
+          </Text>
+        </TouchableHighlight>
+        <TextInput
+          allowFontScaling={true}
+          editable={false}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "height": 30,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 40,
+            }
+          }
+          value="1"
+        />
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             - 
+          </Text>
+        </TouchableHighlight>
+      </View>
+    </View>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <CartListItem
+    textValue={1}
+  />,
+}
+`;
+
+exports[`Testing CartListItem components: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "gray",
+      "borderBottomWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": 80,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1.4,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../images/item.png",
+        }
+      }
+      style={
+        Object {
+          "height": 60,
+          "marginBottom": 10,
+          "marginTop": 10,
+          "width": 80,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 10,
+          "marginTop": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          },
+        ]
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         + 
+      </Text>
+    </View>
+    <TextInput
+      allowFontScaling={true}
+      editable={false}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "height": 30,
+          "marginBottom": 10,
+          "marginRight": 10,
+          "textAlign": "center",
+          "width": 40,
+        }
+      }
+      value="1"
+    />
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          },
+        ]
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         - 
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Testing CartListItem components: should render again 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+      Object {
+        "borderBottomColor": "gray",
+        "borderBottomWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 80,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1.4,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../images/item.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 80,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "flex": 1,
+            "marginLeft": 10,
+            "marginTop": 10,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TouchableHighlight
+        activeOpacity={0.85}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          }
+        }
+        underlayColor="black"
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+           + 
+        </Text>
+      </TouchableHighlight>
+      <TextInput
+        allowFontScaling={true}
+        editable={false}
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "height": 30,
+            "marginBottom": 10,
+            "marginRight": 10,
+            "textAlign": "center",
+            "width": 40,
+          }
+        }
+        value="1"
+      />
+      <TouchableHighlight
+        activeOpacity={0.85}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          }
+        }
+        underlayColor="black"
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+           - 
+        </Text>
+      </TouchableHighlight>
+    </View>
+  </View>,
+  "nodes": Array [
+    <View
+      style={
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1.4,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../images/item.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "marginBottom": 10,
+              "marginTop": 10,
+              "width": 80,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+              "marginTop": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             + 
+          </Text>
+        </TouchableHighlight>
+        <TextInput
+          allowFontScaling={true}
+          editable={false}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "height": 30,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 40,
+            }
+          }
+          value="1"
+        />
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             - 
+          </Text>
+        </TouchableHighlight>
+      </View>
+    </View>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <CartListItem />,
+    "_instance": CartListItem {
+      "context": Object {},
+      "props": Object {},
+      "refs": Object {},
+      "state": Object {
+        "textValue": 1,
+      },
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <View
+      style={
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1.4,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../images/item.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "marginBottom": 10,
+              "marginTop": 10,
+              "width": 80,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+              "marginTop": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             + 
+          </Text>
+        </TouchableHighlight>
+        <TextInput
+          allowFontScaling={true}
+          editable={false}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "height": 30,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 40,
+            }
+          }
+          value="1"
+        />
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             - 
+          </Text>
+        </TouchableHighlight>
+      </View>
+    </View>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <CartListItem />,
+}
+`;
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "gray",
+      "borderBottomWidth": 1,
+      "flex": 1,
+      "flexDirection": "row",
+      "height": 80,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1.4,
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../images/item.png",
+        }
+      }
+      style={
+        Object {
+          "height": 60,
+          "marginBottom": 10,
+          "marginTop": 10,
+          "width": 80,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 10,
+          "marginTop": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          },
+        ]
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         + 
+      </Text>
+    </View>
+    <TextInput
+      allowFontScaling={true}
+      editable={false}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "height": 30,
+          "marginBottom": 10,
+          "marginRight": 10,
+          "textAlign": "center",
+          "width": 40,
+        }
+      }
+      value="1"
+    />
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+          },
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          },
+        ]
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+         - 
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`should render a label 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+      Object {
+        "borderBottomColor": "gray",
+        "borderBottomWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 80,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1.4,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../images/item.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 80,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "flex": 1,
+            "marginLeft": 10,
+            "marginTop": 10,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TouchableHighlight
+        activeOpacity={0.85}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          }
+        }
+        underlayColor="black"
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+           + 
+        </Text>
+      </TouchableHighlight>
+      <TextInput
+        allowFontScaling={true}
+        editable={false}
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "height": 30,
+            "marginBottom": 10,
+            "marginRight": 10,
+            "textAlign": "center",
+            "width": 40,
+          }
+        }
+        value="1"
+      />
+      <TouchableHighlight
+        activeOpacity={0.85}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          }
+        }
+        underlayColor="black"
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+           - 
+        </Text>
+      </TouchableHighlight>
+    </View>
+  </View>,
+  "nodes": Array [
+    <View
+      style={
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1.4,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../images/item.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "marginBottom": 10,
+              "marginTop": 10,
+              "width": 80,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+              "marginTop": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             + 
+          </Text>
+        </TouchableHighlight>
+        <TextInput
+          allowFontScaling={true}
+          editable={false}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "height": 30,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 40,
+            }
+          }
+          value="1"
+        />
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             - 
+          </Text>
+        </TouchableHighlight>
+      </View>
+    </View>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <CartListItem />,
+    "_instance": CartListItem {
+      "context": Object {},
+      "props": Object {},
+      "refs": Object {},
+      "state": Object {
+        "textValue": 1,
+      },
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <View
+      style={
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1.4,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../images/item.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "marginBottom": 10,
+              "marginTop": 10,
+              "width": 80,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+              "marginTop": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             + 
+          </Text>
+        </TouchableHighlight>
+        <TextInput
+          allowFontScaling={true}
+          editable={false}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "height": 30,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 40,
+            }
+          }
+          value="1"
+        />
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             - 
+          </Text>
+        </TouchableHighlight>
+      </View>
+    </View>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <CartListItem />,
+}
+`;
+
+exports[`should render again 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+      Object {
+        "borderBottomColor": "gray",
+        "borderBottomWidth": 1,
+        "flex": 1,
+        "flexDirection": "row",
+        "height": 80,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1.4,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../images/item.png",
+          }
+        }
+        style={
+          Object {
+            "height": 60,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 80,
+          }
+        }
+      />
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "flex": 1,
+            "marginLeft": 10,
+            "marginTop": 10,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TouchableHighlight
+        activeOpacity={0.85}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          }
+        }
+        underlayColor="black"
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+           + 
+        </Text>
+      </TouchableHighlight>
+      <TextInput
+        allowFontScaling={true}
+        editable={false}
+        style={
+          Object {
+            "alignSelf": "flex-end",
+            "height": 30,
+            "marginBottom": 10,
+            "marginRight": 10,
+            "textAlign": "center",
+            "width": 40,
+          }
+        }
+        value="1"
+      />
+      <TouchableHighlight
+        activeOpacity={0.85}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "alignSelf": "flex-end",
+            "borderColor": "gray",
+            "borderWidth": 2,
+            "height": 40,
+            "justifyContent": "center",
+            "marginBottom": 10,
+            "marginRight": 10,
+            "width": 100,
+          }
+        }
+        underlayColor="black"
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+           - 
+        </Text>
+      </TouchableHighlight>
+    </View>
+  </View>,
+  "nodes": Array [
+    <View
+      style={
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1.4,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../images/item.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "marginBottom": 10,
+              "marginTop": 10,
+              "width": 80,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+              "marginTop": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             + 
+          </Text>
+        </TouchableHighlight>
+        <TextInput
+          allowFontScaling={true}
+          editable={false}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "height": 30,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 40,
+            }
+          }
+          value="1"
+        />
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             - 
+          </Text>
+        </TouchableHighlight>
+      </View>
+    </View>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <CartListItem />,
+    "_instance": CartListItem {
+      "context": Object {},
+      "props": Object {},
+      "refs": Object {},
+      "state": Object {
+        "textValue": 1,
+      },
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <View
+      style={
+        Object {
+          "borderBottomColor": "gray",
+          "borderBottomWidth": 1,
+          "flex": 1,
+          "flexDirection": "row",
+          "height": 80,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1.4,
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../images/item.png",
+            }
+          }
+          style={
+            Object {
+              "height": 60,
+              "marginBottom": 10,
+              "marginTop": 10,
+              "width": 80,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "flex": 1,
+              "marginLeft": 10,
+              "marginTop": 10,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "center",
+          }
+        }
+      >
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             + 
+          </Text>
+        </TouchableHighlight>
+        <TextInput
+          allowFontScaling={true}
+          editable={false}
+          style={
+            Object {
+              "alignSelf": "flex-end",
+              "height": 30,
+              "marginBottom": 10,
+              "marginRight": 10,
+              "textAlign": "center",
+              "width": 40,
+            }
+          }
+          value="1"
+        />
+        <TouchableHighlight
+          activeOpacity={0.85}
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "flex-end",
+              "borderColor": "gray",
+              "borderWidth": 2,
+              "height": 40,
+              "justifyContent": "center",
+              "marginBottom": 10,
+              "marginRight": 10,
+              "width": 100,
+            }
+          }
+          underlayColor="black"
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+          >
+             - 
+          </Text>
+        </TouchableHighlight>
+      </View>
+    </View>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <CartListItem />,
+}
+`;

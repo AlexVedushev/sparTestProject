@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "756FEC355BB15949E98F8D114F1A49A8D4F7643F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "756FEC355BB15949E98F8D114F1A49A8D4F7643F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EE85D4F3-38E3-4866-BC4A-540B03F526C5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "756FEC355BB15949E98F8D114F1A49A8D4F7643F" : "testSparDev\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestSparProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/TestSparProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AlexVedushev\/testSparDev",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "756FEC355BB15949E98F8D114F1A49A8D4F7643F"
+    }
+  ]
+}

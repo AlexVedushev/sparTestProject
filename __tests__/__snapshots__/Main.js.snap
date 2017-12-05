@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Main components: renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#999999"
+    hidesWhenStopped={true}
+    size="small"
+  />
+</View>
+`;
+
+exports[`Testing Main components: should render again 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <View
+    style={
+      Object {
+        "flex": 1,
+        "paddingTop": 20,
+      }
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#999999"
+      hidesWhenStopped={true}
+      size="small"
+    />
+  </View>,
+  "nodes": Array [
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingTop": 20,
+        }
+      }
+    >
+      <ActivityIndicator
+        animating={true}
+        color="#999999"
+        hidesWhenStopped={true}
+        size="small"
+      />
+    </View>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_element": <MainScreen />,
+    "_instance": MainScreen {
+      "_onPressCellWithId": [Function],
+      "context": Object {},
+      "props": Object {},
+      "refs": Object {},
+      "state": Object {
+        "dateList": Array [],
+        "isLoadingProducts": true,
+        "isLoadingSections": true,
+      },
+      "updater": Updater {
+        "_renderer": [Circular],
+      },
+    },
+    "_newState": null,
+    "_rendered": <View
+      style={
+        Object {
+          "flex": 1,
+          "paddingTop": 20,
+        }
+      }
+    >
+      <ActivityIndicator
+        animating={true}
+        color="#999999"
+        hidesWhenStopped={true}
+        size="small"
+      />
+    </View>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_renderer": [Circular],
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <MainScreen />,
+}
+`;
